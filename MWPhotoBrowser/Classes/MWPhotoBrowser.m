@@ -1138,6 +1138,7 @@
 #pragma mark - Grid
 
 - (void)showGridAnimated {
+    [self.delegate photoBrowserDidPressGridButtonFromFullScreen:self];
     [self showGrid:YES];
 }
 
